@@ -1,5 +1,7 @@
 # phpBB Http Rewriter
 
+tested and designed for phpBB 3.2.x
+
 ## What does this extension do?
 
 Say you want your forum to run over https instead of http, you'll likely have users posting images 
