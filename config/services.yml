@@ -1,0 +1,5 @@
+services:
+    arjenduinhouwer.httprewriter.listener:
+        class: arjenduinhouwer\httprewriter\event\main_listener
+        tags:
+            - { name: event.listener }

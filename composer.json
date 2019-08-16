@@ -1,0 +1,30 @@
+{
+    "name": "arjenduinhouwer/httprewriter",
+    "type": "phpbb-extension",
+    "description": "HTTP rewriting Extension for phpBB 3.2.x",
+    "version": "0.1.0",
+    "time": "2019-08-15",
+    "keywords": ["phpbb", "extension"],
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Arjen Duinhouwer",
+            "email": "arjen@duinhouwer.nl",
+            "homepage": "https://github.com/arjenduinhouwer/",
+            "role": "Lead Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "composer/installers": "~1.0"
+    },
+    "require-dev": {
+        "phpbb/epv": "dev-master"
+    },
+    "extra": {
+        "display-name": "HTTP Rewriter, rewrites http in img tags to https",
+        "soft-require": {
+            "phpbb/phpbb": "~3.2"
+        }
+    }
+}
